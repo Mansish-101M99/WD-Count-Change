@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300&family=Roboto:ital@1&family=Ubuntu:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(coral, magenta, pink);
+}
+
+h1{
+    font-size: 45px;
+    text-shadow: 2px 5px 7px rgba(238, 99, 56, 0.622);
+
+}
+
+#cnt, #sp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border: 6px;
+    border-radius: 7px;
+    padding: 8px;
+    font-size: 17px;
+    margin: 7px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(25, 174, 9, 0.8);
+    width: 80px;
+    height: 40px;
+    position: relative;
+    outline: none;
+    box-shadow: 0 5px 13px rgba(75, 79, 41, 0.513);
+    text-shadow: 0 3px 5px rgba(14, 71, 88, 0.563);
+    transition: box-shadow 0.34s;
+}
+
+.container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 7px;
+    border: 0px;
+    padding: 12px;
+    font-size: 23px;
+    margin: 20px;
+    background-color: rgba(158, 234, 77, 0.844);
+    color: rgb(27, 42, 49);
+    width: 170px;
+    height: 80px;
+    position: relative;
+    outline: none;
+    box-shadow: 0 5px 18px rgba(44, 47, 18, 0.513);
+    text-shadow: 0 3px 5px rgba(17, 46, 91, 0.563);
+    transition: box-shadow 0.34s;
+}
+
+button:active{
+    background: rgb(50, 221, 144);
+    box-shadow: 0 5px 18px rgba(116, 126, 27, 0.513);
+}

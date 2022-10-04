@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300&family=Roboto:ital@1&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="stle.css">
+        <title>Number Counter</title>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1 id = "cnt">Counter Online</h1>
+        <span id = "sp">START</span>
+        <div class = "container">
+            <button id = "intinc" onclick = "increment()">PLUS(+)</button>
+            <button id = "intdec" onclick = "decrement()">MINUS(-)</button>
+            <button id = "reset" onclick = "reset()">CLEAR</button>
+        </div>
+        
+        <script src="fncrt.js" async defer></script>
+    </body>
+</html>
